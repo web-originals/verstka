@@ -503,6 +503,7 @@
     height: 108px;
     justify-content: space-evenly;
     border-right: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 3px;
   }
 
   .lk-name {
@@ -656,5 +657,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 1.35;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1830px) {
+  .wrapper-phone-address {
+    padding: 20px 19px;
   }
 }
