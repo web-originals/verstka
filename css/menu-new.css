@@ -471,6 +471,7 @@
     padding: 11px 14px;
     font-size: 14px;
     width: 379px;
+    flex: 1 1;
     box-sizing: border-box;
     height: 38px;
     border: 1px solid #E0E0E0;
@@ -650,10 +651,6 @@
     width: 68px;
   }
 
-  .horizon-menu-list__item {
-    padding: 0 25px;
-  }
-
   .sait-bar {
     padding: 27px 50px;
   }
@@ -668,9 +665,38 @@
     font-size: 18px;
     line-height: 1.35;
   }
+
+  .wrapper-phone-address__phone a {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1890px) {
+  .horizon-menu-list__item a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+  }
+
+  .horizon-menu-list__item:first-child {
+    padding-left: 0;
+  }
+
+  .horizon-menu-list__item:last-child {
+    padding-right: 0;
+  }
+
+  .horizon-menu-list {
+    padding: 15px 35px;
+  }
 }
 @media only screen and (min-width: 1500px) and (max-width: 1830px) {
   .wrapper-phone-address {
     padding: 20px 19px;
+  }
+}
+@media only screen and (min-width: 1910px) {
+  .horizon-menu-list__item {
+    padding: 0 30px;
   }
 }
