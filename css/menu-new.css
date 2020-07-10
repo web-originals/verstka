@@ -610,7 +610,21 @@
     display: flex;
   }
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1400px) {
+  .sait-bar {
+    padding: 27px 50px;
+    flex: 0 0 373px;
+  }
+
+  .body-horizon-menu {
+    flex: 1 1 auto;
+  }
+
+  .wrapper-menu-search {
+    flex: 1 0;
+  }
+}
+@media only screen and (min-width: 1820px) {
   .lk-name {
     display: block;
   }
@@ -638,10 +652,6 @@
 
   .horizon-menu-list__item {
     padding: 0 25px;
-  }
-
-  .search-inp {
-    width: 555px;
   }
 
   .sait-bar {
